@@ -1,9 +1,9 @@
-'use strict';
+const { PORT } = require('./config');
 
 const express = require('express');
 
 // Constants
-const PORT = 8080;
+const appPORT = PORT;
 const HOST = '0.0.0.0';
 
 // App
